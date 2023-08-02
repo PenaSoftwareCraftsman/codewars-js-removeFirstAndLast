@@ -1,0 +1,12 @@
+const removeFaL = (str) => {
+    if(str.length < 3)
+        return null;
+
+    str = str.slice(1, (str.length - 1));
+
+    return str;
+}
+
+module.exports = {
+    removeFaL
+}
